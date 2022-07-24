@@ -11,6 +11,7 @@
 		208DFD9B288DB8140005CB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208DFD9A288DB8140005CB47 /* Assets.xcassets */; };
 		208DFD9E288DB8140005CB47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208DFD9C288DB8140005CB47 /* MainMenu.xib */; };
 		208DFDA0288DB8140005CB47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208DFD9F288DB8140005CB47 /* main.m */; };
+		208DFDA9288DB86F0005CB47 /* MRWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208DFDA8288DB86F0005CB47 /* MRWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		208DFD9D288DB8140005CB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		208DFD9F288DB8140005CB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		208DFDA1288DB8140005CB47 /* MatchRep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatchRep.entitlements; sourceTree = "<group>"; };
+		208DFDA7288DB86F0005CB47 /* MRWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRWindowController.h; sourceTree = "<group>"; };
+		208DFDA8288DB86F0005CB47 /* MRWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				208DFD97288DB8120005CB47 /* AppDelegate.h */,
 				208DFD98288DB8120005CB47 /* AppDelegate.m */,
+				208DFDA7288DB86F0005CB47 /* MRWindowController.h */,
+				208DFDA8288DB86F0005CB47 /* MRWindowController.m */,
 				208DFD9A288DB8140005CB47 /* Assets.xcassets */,
 				208DFD9C288DB8140005CB47 /* MainMenu.xib */,
 				208DFD9F288DB8140005CB47 /* main.m */,
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208DFDA9288DB86F0005CB47 /* MRWindowController.m in Sources */,
 				208DFDA0288DB8140005CB47 /* main.m in Sources */,
 				208DFD99288DB8120005CB47 /* AppDelegate.m in Sources */,
 			);

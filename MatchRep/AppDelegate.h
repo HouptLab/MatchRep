@@ -9,6 +9,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+-(IBAction)openPDF:(id)sender; 
 
 @end
 
