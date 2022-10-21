@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139166D329030F9F0010D616 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139166D229030F9F0010D616 /* WebKit.framework */; };
 		208DFD99288DB8120005CB47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 208DFD98288DB8120005CB47 /* AppDelegate.m */; };
 		208DFD9B288DB8140005CB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208DFD9A288DB8140005CB47 /* Assets.xcassets */; };
 		208DFD9E288DB8140005CB47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208DFD9C288DB8140005CB47 /* MainMenu.xib */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139166D229030F9F0010D616 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		208DFD94288DB8120005CB47 /* MatchRep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchRep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208DFD97288DB8120005CB47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		208DFD98288DB8120005CB47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139166D329030F9F0010D616 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		139166D129030F9E0010D616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139166D229030F9F0010D616 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		208DFD8B288DB8120005CB47 = {
 			isa = PBXGroup;
 			children = (
 				208DFD96288DB8120005CB47 /* MatchRep */,
 				208DFD95288DB8120005CB47 /* Products */,
+				139166D129030F9E0010D616 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
