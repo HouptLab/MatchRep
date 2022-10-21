@@ -688,37 +688,37 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="133" y="235" width="860" height="540"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="94" height="86"/>
             <view key="contentView" id="AXr-fN-yLn">
                 <rect key="frame" x="0.0" y="0.0" width="860" height="540"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <splitView fixedFrame="YES" arrangesAllSubviews="NO" dividerStyle="paneSplitter" translatesAutoresizingMaskIntoConstraints="NO" id="eyG-pe-E0w">
-                        <rect key="frame" x="20" y="13" width="832" height="507"/>
+                        <rect key="frame" x="20" y="13" width="832" height="527"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <customView fixedFrame="YES" id="2nf-6v-hQU">
-                                <rect key="frame" x="0.0" y="0.0" width="832" height="402"/>
+                                <rect key="frame" x="0.0" y="0.0" width="832" height="459"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <splitView fixedFrame="YES" arrangesAllSubviews="NO" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFC-gR-bby">
-                                        <rect key="frame" x="0.0" y="0.0" width="832" height="402"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="832" height="459"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <customView fixedFrame="YES" id="yxX-Ko-LkN">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="402"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="459"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <box fixedFrame="YES" borderType="bezel" title="PDF View" translatesAutoresizingMaskIntoConstraints="NO" id="hba-Cy-8e3">
-                                                        <rect key="frame" x="-3" y="-4" width="420" height="406"/>
+                                                        <rect key="frame" x="-3" y="-4" width="420" height="463"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <view key="contentView" id="dfS-ca-Bza">
-                                                            <rect key="frame" x="3" y="3" width="414" height="386"/>
+                                                            <rect key="frame" x="3" y="3" width="414" height="443"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <pdfView autoresizesSubviews="NO" wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dvK-M2-yWx">
-                                                                    <rect key="frame" x="3" y="3" width="404" height="385"/>
+                                                                    <rect key="frame" x="3" y="3" width="404" height="442"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 </pdfView>
                                                             </subviews>
@@ -728,28 +728,35 @@
                                                 </subviews>
                                             </customView>
                                             <customView fixedFrame="YES" id="Y33-JU-VuW">
-                                                <rect key="frame" x="424" y="0.0" width="408" height="402"/>
+                                                <rect key="frame" x="424" y="0.0" width="408" height="459"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
-                                                    <box fixedFrame="YES" borderType="bezel" title="Web View" translatesAutoresizingMaskIntoConstraints="NO" id="fEF-AW-lvB">
-                                                        <rect key="frame" x="-6" y="-2" width="420" height="406"/>
+                                                    <view id="jUm-vb-cwh">
+                                                        <rect key="frame" x="-3" y="8" width="414" height="443"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                        <view key="contentView" id="jSp-7y-uVp">
-                                                            <rect key="frame" x="3" y="3" width="414" height="386"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                            <subviews>
-                                                                <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XwE-7i-dUa">
-                                                                    <rect key="frame" x="6" y="0.0" width="401" height="380"/>
-                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                    <wkWebViewConfiguration key="configuration">
-                                                                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                                                        <wkPreferences key="preferences"/>
-                                                                    </wkWebViewConfiguration>
-                                                                </wkWebView>
-                                                            </subviews>
-                                                        </view>
-                                                        <font key="titleFont" metaFont="system"/>
-                                                    </box>
+                                                        <subviews>
+                                                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byO-3d-2yZ">
+                                                                <rect key="frame" x="6" y="0.0" width="401" height="417"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                <wkWebViewConfiguration key="configuration">
+                                                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                                                    <wkPreferences key="preferences"/>
+                                                                </wkWebViewConfiguration>
+                                                                <connections>
+                                                                    <outlet property="navigationDelegate" destination="5ns-Y5-KMI" id="AGi-fV-jOl"/>
+                                                                </connections>
+                                                            </wkWebView>
+                                                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f2X-Y6-Gyu">
+                                                                <rect key="frame" x="7" y="420" width="400" height="27"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="QzR-W9-MrI">
+                                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                            </textField>
+                                                        </subviews>
+                                                    </view>
                                                 </subviews>
                                             </customView>
                                         </subviews>
@@ -761,8 +768,30 @@
                                 </subviews>
                             </customView>
                             <customView fixedFrame="YES" id="6TN-82-enl">
-                                <rect key="frame" x="0.0" y="412" width="832" height="95"/>
+                                <rect key="frame" x="0.0" y="469" width="832" height="58"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wln-et-oJy">
+                                        <rect key="frame" x="499" y="13" width="167" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="EMd-Av-F8M">
+                                            <font key="font" metaFont="system" size="18"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvg-IW-Ay0">
+                                        <rect key="frame" x="697" y="12" width="112" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Rename PDF" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Vwx-ek-1uH">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="renamePDF:" target="5ns-Y5-KMI" id="2Tt-Lb-ZMh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                             </customView>
                         </subviews>
                         <holdingPriorities>
@@ -777,9 +806,12 @@
         <customObject id="5ns-Y5-KMI" customClass="MRWindowController">
             <connections>
                 <outlet property="pdfView" destination="dvK-M2-yWx" id="Owa-sh-LkM"/>
-                <outlet property="webView" destination="XwE-7i-dUa" id="gtD-I1-zVh"/>
+                <outlet property="pmidField" destination="Wln-et-oJy" id="fBI-zy-dkC"/>
+                <outlet property="textField" destination="f2X-Y6-Gyu" id="2mL-NQ-FXO"/>
+                <outlet property="webView" destination="byO-3d-2yZ" id="r14-gC-rYp"/>
                 <outlet property="window" destination="kKE-dG-775" id="2GS-No-XRt"/>
             </connections>
         </customObject>
+        <userDefaultsController representsSharedInstance="YES" id="7ZZ-35-jsh"/>
     </objects>
 </document>
